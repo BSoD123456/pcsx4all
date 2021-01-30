@@ -14,7 +14,7 @@ USE_GPULIB ?= 1
 GPU  = gpu_unai
 SPU  = spu_pcsxrearmed
 
-CHAINPREFIX := /opt/mipsel-RetroFW-linux-uclibc
+CHAINPREFIX := /home/tring/retrofw/rs97tools_master
 CROSS_COMPILE := $(CHAINPREFIX)/usr/bin/mipsel-linux-
 
 CC = $(CROSS_COMPILE)gcc
